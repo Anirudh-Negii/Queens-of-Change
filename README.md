@@ -53,7 +53,7 @@ Deployed on [Vercel](https://vercel.com/) for fast, reliable hosting and continu
 
 1. **Clone the repository:**
 	```bash
-	git clone https://github.com/your-username/queens-of-change-ngo.git
+	git clone https://github.com/Anirudh-Negii/queens-of-change-ngo.git
 	```
 2. **Open the project folder** in your code editor.
 3. **Open `index.html`** in your browser to view the site locally.
