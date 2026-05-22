@@ -438,41 +438,6 @@ section { position: relative; }
   pointer-events: none;
 }
 
-.hero-badge {
-  position: absolute;
-  bottom: -20px; left: -20px;
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: 18px;
-  padding: 14px 18px;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  box-shadow: 0 12px 40px var(--shadow);
-  z-index: 2;
-}
-.hero-badge-icon {
-  width: 40px; height: 40px;
-  border-radius: 12px;
-  background: linear-gradient(135deg, var(--purple-primary), var(--gold));
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.hero-badge-icon svg { width: 20px; height: 20px; fill: #fff; }
-.hero-badge-text span:first-child {
-  display: block;
-  font-size: 1.1rem;
-  font-weight: 700;
-  color: var(--purple-primary);
-  font-family: 'Cinzel', serif;
-}
-.hero-badge-text span:last-child {
-  font-size: 0.72rem;
-  color: var(--text-muted);
-  font-weight: 500;
-}
-
 .hero-floating-tag {
   position: absolute;
   top: 24px; right: -18px;
