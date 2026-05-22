@@ -1,0 +1,708 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Queens of Change Foundation - Empowering Women, Creating Change
+    </title>
+    <link rel="icon" type="image/svg+xml" href='data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"%3E%3Cdefs%3E%3ClinearGradient id="g" x1="0" y1="0" x2="1" y2="1"%3E%3Cstop offset="0%25" stop-color="%236D28D9"/%3E%3Cstop offset="100%25" stop-color="%234C1D95"/%3E%3C/linearGradient%3E%3C/defs%3E%3Ccircle cx="32" cy="32" r="30" fill="url(%23g)"/%3E%3Cpath d="M32 14 L22 28 L12 22 L18 42 H46 L52 22 L42 28 Z" fill="white" opacity="0.95"/%3E%3Ccircle cx="32" cy="46" r="4" fill="%23F59E0B"/%3E%3Ccircle cx="18" cy="46" r="2.5" fill="%23F59E0B" opacity="0.7"/%3E%3Ccircle cx="46" cy="46" r="2.5" fill="%23F59E0B" opacity="0.7"/%3E%3C/svg%3E' />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  
+  <body>
+    <!-- ====================== NAVBAR ====================== -->
+    <nav id="navbar">
+      <div class="nav-inner">
+        <!-- Logo -->
+        <a href="#hero" class="nav-logo">
+          <svg
+            class="nav-logo-icon"
+            viewBox="0 0 42 42"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <circle cx="21" cy="21" r="21" fill="url(#lgNav)" />
+            <path
+              d="M21 9 L14 18 L8 14 L12 28 H30 L34 14 L28 18 Z"
+              fill="#fff"
+              opacity="0.95"
+            />
+            <circle cx="21" cy="31" r="2.5" fill="#F59E0B" />
+            <circle cx="12" cy="31" r="1.8" fill="#F59E0B" opacity="0.7" />
+            <circle cx="30" cy="31" r="1.8" fill="#F59E0B" opacity="0.7" />
+            <defs>
+              <linearGradient
+                id="lgNav"
+                x1="0"
+                y1="0"
+                x2="42"
+                y2="42"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop stop-color="#4C1D95" />
+                <stop offset="1" stop-color="#7C3AED" />
+              </linearGradient>
+            </defs>
+          </svg>
+          <div class="nav-logo-text">
+            <span>Queens Of Change</span>
+            <span>Foundation</span>
+          </div>
+        </a>
+
+        <!-- Desktop nav -->
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#what-we-do" data-section="what-we-do">About</a></li>
+          <li><a href="#our-work" data-section="our-work">Our Work</a></li>
+          <li><a href="#impact" data-section="impact">Impact</a></li>
+          <li>
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSdrCJnrJfnxzmGXOmvuvwGHFw8QOWnlW3kPCUQ47T0IUEgQ8w/viewform"
+              class="btn-donate desktop-only"
+              >♛ Donate</a
+            >
+          </li>
+        </ul>
+
+        <div class="nav-actions">
+          <!-- Theme toggle -->
+          <button
+            class="theme-toggle"
+            id="themeToggle"
+            aria-label="Toggle dark mode"
+          >
+            <!-- Sun icon -->
+            <svg
+              class="icon-sun"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="var(--gold)"
+              stroke-width="2"
+              stroke-linecap="round"
+            >
+              <circle cx="12" cy="12" r="5" />
+              <line x1="12" y1="1" x2="12" y2="3" />
+              <line x1="12" y1="21" x2="12" y2="23" />
+              <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+              <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+              <line x1="1" y1="12" x2="3" y2="12" />
+              <line x1="21" y1="12" x2="23" y2="12" />
+              <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+              <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+            </svg>
+            <!-- Moon icon -->
+            <svg
+              class="icon-moon"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="var(--purple-primary)"
+              stroke-width="2"
+              stroke-linecap="round"
+            >
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+            </svg>
+          </button>
+
+          <!-- Hamburger -->
+          <button class="hamburger" id="hamburger" aria-label="Open menu">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Mobile nav -->
+    <div class="mobile-nav" id="mobileNav">
+      <a href="#what-we-do">About</a>
+      <a href="#our-work">Our Work</a>
+      <a href="#impact">Impact</a>
+      <a
+        href="https://docs.google.com/forms/d/e/1FAIpQLSdrCJnrJfnxzmGXOmvuvwGHFw8QOWnlW3kPCUQ47T0IUEgQ8w/viewform"
+        class="btn-donate"
+      >
+        <pre> Donate </pre>
+      </a>
+    </div>
+
+    <!-- ====================== HERO SECTION ====================== -->
+    <section id="hero">
+      <!-- Decorative glows -->
+      <div class="hero-glow hero-glow-1"></div>
+      <div class="hero-glow hero-glow-2"></div>
+      <div class="hero-glow hero-glow-3"></div>
+
+      <div class="container">
+        <div class="hero-grid">
+          <!-- Left: Text -->
+          <div class="hero-content reveal">
+            <div class="hero-eyebrow">
+              <div class="crown-dot"></div>
+              Empowering Women
+            </div>
+
+            <h1 class="hero-h1">
+              Where Every Woman Becomes a
+              <span class="highlight">Queen</span>
+            </h1>
+
+            <p class="hero-desc">
+              Queens of Change Foundation is dedicated to breaking stigma around
+              menstruation and empowering underprivileged women across India
+              with dignity, education, and opportunities.
+            </p>
+
+            <div class="hero-btns">
+              <a href="#our-work" class="btn-primary">
+                Explore Our Work
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2.5"
+                  stroke-linecap="round"
+                >
+                  <path d="M5 12h14M12 5l7 7-7 7" />
+                </svg>
+              </a>
+              <a href="#cta" class="btn-secondary">
+                Join Our Mission
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2.5"
+                  stroke-linecap="round"
+                >
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                  <circle cx="9" cy="7" r="4" />
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Right: Image -->
+          <div class="hero-visual reveal reveal-delay-2">
+            <div class="hero-img-frame">
+              <img
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/best-t911DuIPyEkW8zBlBTqdjejdup0vsu.jpeg"
+                alt="hero image"
+              />
+            </div>
+
+            <!-- Floating badge -->
+            <div class="hero-badge">
+              <div class="hero-badge-icon">
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M12 2L9.5 8.5H3l5.5 4-2 6.5L12 15l5.5 3.5-2-6.5L21 8.5h-6.5z"
+                  />
+                </svg>
+              </div>
+              <div class="hero-badge-text">
+                <span>50,000+</span>
+                <span>Lives Impacted</span>
+              </div>
+            </div>
+
+            <!-- Floating tag -->
+            <div class="hero-floating-tag">♛ Women-Led Org</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================== WHAT WE DO ====================== -->
+    <section id="what-we-do">
+      <div class="container">
+        <div class="wwd-header reveal">
+          <h2 class="section-title">What We Do</h2>
+          <p class="section-subtitle">
+            Our multi-faceted approach tackles menstrual health, education, and
+            women's empowerment
+          </p>
+        </div>
+
+        <div class="wwd-grid">
+          <!-- Card 1 -->
+          <div class="wwd-card reveal reveal-delay-1">
+            <div class="wwd-card-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-flower-icon lucide-flower"
+              >
+                <circle cx="12" cy="12" r="3" />
+                <path
+                  d="M12 16.5A4.5 4.5 0 1 1 7.5 12 4.5 4.5 0 1 1 12 7.5a4.5 4.5 0 1 1 4.5 4.5 4.5 4.5 0 1 1-4.5 4.5"
+                />
+                <path d="M12 7.5V9" />
+                <path d="M7.5 12H9" />
+                <path d="M16.5 12H15" />
+                <path d="M12 16.5V15" />
+                <path d="m8 8 1.88 1.88" />
+                <path d="M14.12 9.88 16 8" />
+                <path d="m8 16 1.88-1.88" />
+                <path d="M14.12 14.12 16 16" />
+              </svg>
+            </div>
+            <h3>Sanitary Pad Distribution</h3>
+            <p>
+              Providing free sanitary pads to underprivileged girls and women,
+              ensuring menstrual health and dignity.
+            </p>
+            <span class="wwd-card-arrow">Learn more →</span>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="wwd-card reveal reveal-delay-2">
+            <div class="wwd-card-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="size-6"
+              >
+                <path
+                  d="M11.7 2.805a.75.75 0 0 1 .6 0A60.65 60.65 0 0 1 22.83 8.72a.75.75 0 0 1-.231 1.337 49.948 49.948 0 0 0-9.902 3.912l-.003.002c-.114.06-.227.119-.34.18a.75.75 0 0 1-.707 0A50.88 50.88 0 0 0 7.5 12.173v-.224c0-.131.067-.248.172-.311a54.615 54.615 0 0 1 4.653-2.52.75.75 0 0 0-.65-1.352 56.123 56.123 0 0 0-4.78 2.589 1.858 1.858 0 0 0-.859 1.228 49.803 49.803 0 0 0-4.634-1.527.75.75 0 0 1-.231-1.337A60.653 60.653 0 0 1 11.7 2.805Z"
+                />
+                <path
+                  d="M13.06 15.473a48.45 48.45 0 0 1 7.666-3.282c.134 1.414.22 2.843.255 4.284a.75.75 0 0 1-.46.711 47.87 47.87 0 0 0-8.105 4.342.75.75 0 0 1-.832 0 47.87 47.87 0 0 0-8.104-4.342.75.75 0 0 1-.461-.71c.035-1.442.121-2.87.255-4.286.921.304 1.83.634 2.726.99v1.27a1.5 1.5 0 0 0-.14 2.508c-.09.38-.222.753-.397 1.11.452.213.901.434 1.346.66a6.727 6.727 0 0 0 .551-1.607 1.5 1.5 0 0 0 .14-2.67v-.645a48.549 48.549 0 0 1 3.44 1.667 2.25 2.25 0 0 0 2.12 0Z"
+                />
+                <path
+                  d="M4.462 19.462c.42-.419.753-.89 1-1.395.453.214.902.435 1.347.662a6.742 6.742 0 0 1-1.286 1.794.75.75 0 0 1-1.06-1.06Z"
+                />
+              </svg>
+            </div>
+            <h3>Health Education</h3>
+            <p>
+              Breaking stigma through comprehensive education about menstrual
+              health, hygiene, and reproductive rights.
+            </p>
+            <span class="wwd-card-arrow">Learn more →</span>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="wwd-card reveal reveal-delay-3">
+            <div class="wwd-card-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-chess-queen-icon lucide-chess-queen"
+              >
+                <path
+                  d="M4 20a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v1a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1z"
+                />
+                <path
+                  d="m12.474 5.943 1.567 5.34a1 1 0 0 0 1.75.328l2.616-3.402"
+                />
+                <path d="m20 9-3 9" />
+                <path
+                  d="m5.594 8.209 2.615 3.403a1 1 0 0 0 1.75-.329l1.567-5.34"
+                />
+                <path d="M7 18 4 9" />
+                <circle cx="12" cy="4" r="2" />
+                <circle cx="20" cy="7" r="2" />
+                <circle cx="4" cy="7" r="2" />
+              </svg>
+            </div>
+            <h3>Women Empowerment</h3>
+            <p>
+              Skilling programs and mentorship to help women become self-reliant
+              and confident leaders in their communities.
+            </p>
+            <span class="wwd-card-arrow">Learn more →</span>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="wwd-card reveal reveal-delay-4">
+            <div class="wwd-card-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-handshake-icon lucide-handshake"
+              >
+                <path d="m11 17 2 2a1 1 0 1 0 3-3" />
+                <path
+                  d="m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-3-3l2.81-2.81a5.79 5.79 0 0 1 7.06-.87l.47.28a2 2 0 0 0 1.42.25L21 4"
+                />
+                <path d="m21 3 1 11h-2" />
+                <path d="M3 3 2 14l6.5 6.5a1 1 0 1 0 3-3" />
+                <path d="M3 4h8" />
+              </svg>
+            </div>
+            <h3>Community Outreach</h3>
+            <p>
+              Direct engagement with marginalized communities to understand and
+              address their specific needs and challenges.
+            </p>
+            <span class="wwd-card-arrow">Learn more →</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================== OUR WORK SECTION ====================== -->
+    <section id="our-work">
+      <div class="container">
+        <div class="ow-header reveal">
+          <h2 class="section-title">Our Work in Action</h2>
+          <p class="section-subtitle">
+            Real moments, real change — glimpses of our foundation making its
+            mark across communities, classrooms, and lives.
+          </p>
+        </div>
+
+        <div class="ow-gallery">
+          <!-- Item 1 -->
+          <div class="ow-item reveal reveal-delay-1">
+            <div class="ow-img-inner">
+              <img
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/a%20%2826%29-HhqYzvnxwJ3UCqj9w8KodJfYxjQ9BM.jpeg"
+                alt="Sanitary Pad Distribution Drive"
+              />
+            </div>
+            <div class="ow-item-label">Pad Distribution Drive</div>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="ow-item reveal reveal-delay-2">
+            <div class="ow-img-inner">
+              <img
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/w%20%2812%29-ewShZzNjl9ucDGplg8cELFvVvRJVvE.jpeg"
+                alt="Health Education Workshop"
+              />
+            </div>
+            <div class="ow-item-label">Health Education Workshop</div>
+          </div>
+
+          <!-- Item 3 -->
+          <div class="ow-item reveal reveal-delay-3">
+            <div class="ow-img-inner">
+              <img
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/w%20%286%29-NDLlDm1tqFqwuZ4jvipfrrpBC6FHnW.jpeg"
+                alt="Women Leadership Training"
+              />
+            </div>
+            <div class="ow-item-label">Leadership Training</div>
+          </div>
+
+          <!-- Item 4 -->
+          <div class="ow-item reveal reveal-delay-1">
+            <div class="ow-img-inner">
+              <img
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/w%20%2817%29-q0CfVOeeNg1PnfJP1bcanUM2RzZOcI.jpeg"
+                alt="Community Outreach Program"
+              />
+            </div>
+            <div class="ow-item-label">Community Outreach</div>
+          </div>
+
+          <!-- Item 5 -->
+          <div class="ow-item reveal reveal-delay-2">
+            <div class="ow-img-inner">
+              <img
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/w%20%283%29-zWU3DRxwRDoDfa6Tu1FHA8spX3UJ6j.jpeg"
+                alt="Spreading Smiles Together"
+              />
+            </div>
+            <div class="ow-item-label">Spreading Smiles</div>
+          </div>
+
+          <!-- Item 6 -->
+          <div class="ow-item reveal reveal-delay-3">
+            <div class="ow-img-inner">
+              <img
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/w%20%2812%29-ewShZzNjl9ucDGplg8cELFvVvRJVvE.jpeg"
+                alt="Rural Awareness Campaign"
+              />
+            </div>
+            <div class="ow-item-label">Rural Awareness Program</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================== IMPACT SECTION ====================== -->
+    <section id="impact">
+      <div class="container">
+        <div class="impact-header reveal">
+          <h2 class="section-title">The Impact We've Made</h2>
+          <p class="section-subtitle">
+            Numbers don't tell the whole story — but they do tell a powerful
+            part of it. Here's what we've achieved together.
+          </p>
+        </div>
+
+        <div class="impact-grid">
+          <!-- Stat 1 -->
+          <div class="impact-card reveal reveal-delay-1">
+            <div class="impact-card-icon">
+              <svg viewBox="0 0 24 24">
+                <path
+                  d="M12 2C8.5 2 5 5.5 5 9.5c0 5.5 7 12.5 7 12.5s7-7 7-12.5C19 5.5 15.5 2 12 2z"
+                />
+                <circle cx="12" cy="9.5" r="3" fill="rgba(255,255,255,0.6)" />
+              </svg>
+            </div>
+            <div class="impact-card-body">
+              <div class="impact-number" data-target="200000" data-suffix="+">
+                0
+              </div>
+              <div class="impact-label">Sanitary Pads Distributed</div>
+              <div class="impact-desc">
+                Menstrual dignity delivered directly to women in need across
+                India.
+              </div>
+            </div>
+          </div>
+
+          <!-- Stat 2 -->
+          <div class="impact-card reveal reveal-delay-2">
+            <div class="impact-card-icon">
+              <svg viewBox="0 0 24 24">
+                <circle cx="9" cy="9" r="4" />
+                <circle cx="17" cy="9" r="4" />
+                <path d="M2 20c0-3.3 3.1-6 7-6M15 14c3.9 0 7 2.7 7 6" />
+              </svg>
+            </div>
+            <div class="impact-card-body">
+              <div class="impact-number" data-target="500" data-suffix="+">
+                0
+              </div>
+              <div class="impact-label">Communities Reached</div>
+              <div class="impact-desc">
+                Rural and urban communities touched by our programs nationwide.
+              </div>
+            </div>
+          </div>
+
+          <!-- Stat 3 -->
+          <div class="impact-card reveal reveal-delay-3">
+            <div class="impact-card-icon">
+              <svg viewBox="0 0 24 24">
+                <path
+                  d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"
+                />
+              </svg>
+            </div>
+            <div class="impact-card-body">
+              <div class="impact-number" data-target="50000" data-suffix="+">
+                0
+              </div>
+              <div class="impact-label">Lives Directly Impacted</div>
+              <div class="impact-desc">
+                Women and girls whose lives have been meaningfully transformed.
+              </div>
+            </div>
+          </div>
+
+          <!-- Stat 4 -->
+          <div class="impact-card reveal reveal-delay-4">
+            <div class="impact-card-icon">
+              <svg viewBox="0 0 24 24">
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                />
+              </svg>
+            </div>
+            <div class="impact-card-body">
+              <div class="impact-number" data-target="100" data-suffix="%">
+                0
+              </div>
+              <div class="impact-label">Women-Led Organization</div>
+              <div class="impact-desc">
+                Led entirely by women who understand what true change looks
+                like.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================== CTA ====================== -->
+    <section id="cta">
+      <div class="container">
+        <div class="cta-inner reveal">
+          <svg
+            class="cta-crown"
+            viewBox="0 0 56 56"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M28 8L20 22 8 16 13 36H43L48 16 36 22 28 8Z"
+              fill="rgba(245,158,11,0.9)"
+            />
+            <circle cx="28" cy="38" r="3.5" fill="#fff" />
+            <circle cx="14" cy="38" r="2.5" fill="rgba(255,255,255,0.6)" />
+            <circle cx="42" cy="38" r="2.5" fill="rgba(255,255,255,0.6)" />
+            <rect
+              x="10"
+              y="43"
+              width="36"
+              height="4"
+              rx="2"
+              fill="rgba(255,255,255,0.3)"
+            />
+          </svg>
+
+          <h2 class="cta-title">Ready to Make a <span>Difference?</span></h2>
+
+          <p class="cta-para">
+            Every contribution, every voice, every act of solidarity brings us
+            closer to a world where every woman can stand tall. Be the reason a
+            queen rises today.
+          </p>
+
+          <a href="https://www.queensofchange.org/" class="btn-cta">
+            ♛ Join Our Mission
+            <svg
+              width="18"
+              height="18"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2.5"
+              stroke-linecap="round"
+            >
+              <path d="M5 12h14M12 5l7 7-7 7" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================== FOOTER ====================== -->
+    <footer>
+      <div class="container">
+        <div class="footer-grid">
+          <!-- Brand -->
+          <div class="footer-brand">
+            <div class="footer-logo">
+              <svg width="38" height="38" viewBox="0 0 42 42" fill="none">
+                <circle cx="21" cy="21" r="21" fill="url(#lgFooter)" />
+                <path
+                  d="M21 9 L14 18 L8 14 L12 28 H30 L34 14 L28 18 Z"
+                  fill="#fff"
+                  opacity="0.95"
+                />
+                <circle cx="21" cy="31" r="2.5" fill="#F59E0B" />
+                <defs>
+                  <linearGradient id="lgFooter" x1="0" y1="0" x2="42" y2="42">
+                    <stop stop-color="#4C1D95" />
+                    <stop offset="1" stop-color="#7C3AED" />
+                  </linearGradient>
+                </defs>
+              </svg>
+              <div class="nav-logo-text">
+                <span>Queens Of Change</span>
+                <span>Foundation</span>
+              </div>
+            </div>
+            <p class="footer-tagline">
+              Championing menstrual dignity, women's empowerment, and community
+              transformation — one queen at a time.
+            </p>
+
+            <!-- Social links -->
+            <div class="social-row">
+              <a href="#" class="social-btn" aria-label="Instagram">
+                <svg viewBox="0 0 24 24">
+                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+                </svg>
+              </a>
+              <a href="#" class="social-btn" aria-label="Twitter/X">
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"
+                  />
+                </svg>
+              </a>
+              <a href="#" class="social-btn" aria-label="Facebook">
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
+                  />
+                </svg>
+              </a>
+              <a href="#" class="social-btn" aria-label="LinkedIn">
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+                  />
+                  <rect x="2" y="9" width="4" height="12" />
+                  <circle cx="4" cy="4" r="2" />
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Quick Links -->
+          <div class="footer-col">
+            <h4>Quick Links</h4>
+            <ul class="footer-links">
+              <li><a href="#what-we-do">About Us</a></li>
+              <li><a href="#what-we-do">What We Do</a></li>
+              <li><a href="#our-work">Our Work</a></li>
+              <li><a href="#impact">Impact</a></li>
+              <li><a href="#cta">Donate</a></li>
+            </ul>
+          </div>
+
+          <!-- Get Involved -->
+          <div class="footer-col">
+            <h4>Get Involved</h4>
+            <ul class="footer-links">
+              <li><a href="#">Volunteer</a></li>
+              <li><a href="#">Partner With Us</a></li>
+              <li><a href="#">Campaigns</a></li>
+              <li><a href="#">Media Kit</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>
+            © 2026 <strong>Queens Of Change Foundation</strong>. All rights
+            reserved. Made with ♛ for every woman.
+          </p>
+          <p>Privacy Policy · Terms of Use</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
