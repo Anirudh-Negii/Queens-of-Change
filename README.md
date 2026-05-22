@@ -46,24 +46,3 @@ script.js
 ## 🚢 Deployment
 
 Deployed on [Vercel](https://vercel.com/) for fast, reliable hosting and continuous deployment.
-
----
-
-## 📝 Getting Started
-
-1. **Clone the repository:**
-	```bash
-	git clone https://github.com/Anirudh-Negii/queens-of-change-ngo.git
-	```
-2. **Open the project folder** in your code editor.
-3. **Open `index.html`** in your browser to view the site locally.
-
-No build tools or dependencies required — just open and go!
-
-## 🎨 Customization
-
-- Update content in `index.html` to reflect your organization’s mission, team, and projects.
-- Modify colors, fonts, or layout in `style.css` to match your branding.
-- Enhance interactivity or add new features in `script.js`.
-
-
